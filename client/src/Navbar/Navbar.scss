@@ -1,0 +1,39 @@
+.mainnav{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 100;
+    .navbar{
+    
+        height: 89px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+        a{
+            margin: 60px;
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+.add{
+    padding: 12px 41px;
+    display: inline-block;
+    border: 1px solid #384aeb;
+    border-radius: 30px;
+    color: #222;
+    font-weight: 500;
+    padding: 12px 50px;
+    background: #384aeb;
+    color: #fff;
+    transition: all .4s ease;
+    a{
+        color: white !important;
+    }
+}
+.home{
+    color: #384aeb;
+    font-size: 25px;
+    font-weight: 500;
+}
